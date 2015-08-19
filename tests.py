@@ -14,4 +14,10 @@ class TestVogais(unittest.TestCase):
         self.assertEqual(qtde_vogais, 1)
         self.assertEqual(qtde_consoantes, 5)
 
+    def test_conta_vogais_espaco(self):
+        qtde_vogais, qtde_consoantes = conta_vogais_consoantes('Jotage Sales')
+
+        self.assertEqual(qtde_vogais, 5)
+        self.assertEqual(qtde_consoantes, 6)
+
 unittest.main()
