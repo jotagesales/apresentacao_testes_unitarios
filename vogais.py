@@ -5,7 +5,6 @@ Created by Jotagê Sales on 18/08/15.
 
 VOGAIS = ['a', 'e', 'i', 'o', 'u']
 
-
 def conta_vogais_consoantes(text=''):
     count_vogal= 0
     count_consoante= 0
@@ -19,5 +18,4 @@ def conta_vogais_consoantes(text=''):
                 count_vogal += 1
             else:
                 count_consoante += 1
-
     return count_vogal, count_consoante
